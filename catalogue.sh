@@ -13,4 +13,4 @@ systemctl enable catalogue
 systemctl start catalogue
 cp mongo.repo  /etc/yum.repos.d
 yum install mongodb-org-shell -y
-mongo --host MONGODB-SERVER-IPADDRESS </app/schema/catalogue.js
+mongo --host mongodb-dev.itdevopsb72.online </app/schema/catalogue.js
